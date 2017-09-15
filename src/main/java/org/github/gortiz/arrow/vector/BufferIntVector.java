@@ -41,6 +41,6 @@ public class BufferIntVector extends AbstractVector<Integer>
 
     @Override
     public int size() {
-        return dataBuf.capacity() / 4;
+        return dataBuf.capacity();
     }
 }
